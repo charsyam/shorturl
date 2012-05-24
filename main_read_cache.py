@@ -9,8 +9,8 @@ abort, render_template, flash
 
 # configuration
 DB_HOST='127.0.0.1'
-DB_USER='charsyam'
-DB_PASSWORD='kdm1979k'
+DB_USER=''
+DB_PASSWORD=''
 DB_FILE='shorturl'
 
 REDIS_ADDRESS='127.0.0.1'
