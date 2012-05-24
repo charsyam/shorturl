@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+{% block body %}
+<ul class=urls>
+{% for url_entry in urls %}
+<li><h2>{{ url_entry.url }}</h2>
+{% else %}
+<li><em>Unbelievable. No entries here so far</em>
+{% endfor %}
+</ul>
+{% endblock %}
